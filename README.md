@@ -1,5 +1,5 @@
 # delaunay
-C program that constructs the Delaunay triangulation and/or Voronoi diagram of a set of points. Built as a final project in the NYUAD Data Structures class in spring 2014.
+C++ program that constructs Delaunay triangulation and/or Voronoi diagram of a set of points. Built as a final project in the NYUAD Data Structures class in spring 2014.
 
 ## Instructions
 ### Running the program
