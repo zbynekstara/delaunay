@@ -1,0 +1,19 @@
+#!/bin/bash
+
+if [ $# -eq 3 ] # number_of_points, input_address, output_address
+	then
+	if [ $1 -ne -1 ] # -1 means "do not re-create points"
+		then
+		./randinput $1 > input.txt
+	fi
+	./delaunay input.txt output.txt $2 $3
+elif [ $# -eq 1 ] # number_of_points
+	then
+	./randinput $1 > input.txt
+	./delaunay
+else # (no arguments)
+	./randinput > input.txt
+	./delaunay
+fi
+
+./output.txt > output.png

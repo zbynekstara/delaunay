@@ -1,0 +1,5 @@
+#!/bin/bash
+
+g++ randinput.cpp -o randinput
+
+g++ delaunay.cpp -o delaunay

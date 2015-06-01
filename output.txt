@@ -1,0 +1,924 @@
+#!/usr/local/bin/gnuplot
+reset
+set terminal png
+set yrange [0:100]
+set xrange [0:100]
+unset colorbox
+set style arrow 1 nohead lc rgb 'black'
+set style arrow 2 nohead lc rgb 'red'
+set label 29 "" at 99.9169,3.62154 point pointtype 5 lc rgb 'black'
+set label 93 "" at 86.1847,6.21712 point pointtype 5 lc rgb 'black'
+set arrow from 92.4306,1.63804 to 93.0101,4.70391 as 2
+set label 29 "" at 99.9169,3.62154 point pointtype 5 lc rgb 'black'
+set label 41 "" at 99.7416,57.2455 point pointtype 5 lc rgb 'black'
+set arrow from 493.415,31.7202 to 1554.61,35.1893 as 2
+set label 54 "" at 7.92715,31.6798 point pointtype 5 lc rgb 'black'
+set label 81 "" at 24.5628,27.8051 point pointtype 5 lc rgb 'black'
+set arrow from 16.4076,30.4406 to 16.1824,29.4736 as 2
+set label 54 "" at 7.92715,31.6798 point pointtype 5 lc rgb 'black'
+set label 98 "" at 5.80942,38.8496 point pointtype 5 lc rgb 'black'
+set arrow from 6.46199,35.1447 to 9.46904,36.0329 as 2
+set label 54 "" at 7.92715,31.6798 point pointtype 5 lc rgb 'black'
+set label 74 "" at 12.2116,39.7484 point pointtype 5 lc rgb 'black'
+set arrow from 9.46904,36.0329 to 12.4177,34.4671 as 2
+set label 54 "" at 7.92715,31.6798 point pointtype 5 lc rgb 'black'
+set label 73 "" at 8.8609,25.0677 point pointtype 5 lc rgb 'black'
+set arrow from 16.1824,29.4736 to 10.4256,28.6606 as 2
+set label 54 "" at 7.92715,31.6798 point pointtype 5 lc rgb 'black'
+set label 89 "" at 7.0644,31.4313 point pointtype 5 lc rgb 'black'
+set arrow from 8.09062,29.4904 to 6.46199,35.1447 as 2
+set label 54 "" at 7.92715,31.6798 point pointtype 5 lc rgb 'black'
+set label 67 "" at 15.246,38.932 point pointtype 5 lc rgb 'black'
+set arrow from 12.4177,34.4671 to 16.4076,30.4406 as 2
+set label 28 "" at 17.7048,64.5683 point pointtype 5 lc rgb 'black'
+set label 53 "" at 19.5317,69.5429 point pointtype 5 lc rgb 'black'
+set arrow from 11.2448,69.7635 to 19.4187,66.7617 as 2
+set label 28 "" at 17.7048,64.5683 point pointtype 5 lc rgb 'black'
+set label 40 "" at 18.6925,64.0745 point pointtype 5 lc rgb 'black'
+set arrow from 19.4187,66.7617 to 16.7027,61.3292 as 2
+set label 37 "" at 50.4152,28.2378 point pointtype 5 lc rgb 'black'
+set label 72 "" at 52.2427,43.0243 point pointtype 5 lc rgb 'black'
+set arrow from 44.9057,36.4249 to 53.9269,35.31 as 2
+set label 37 "" at 50.4152,28.2378 point pointtype 5 lc rgb 'black'
+set label 66 "" at 66.1468,28.9412 point pointtype 5 lc rgb 'black'
+set arrow from 58.1636,31.2146 to 58.3261,27.5819 as 2
+set label 37 "" at 50.4152,28.2378 point pointtype 5 lc rgb 'black'
+set label 47 "" at 47.8441,16.5091 point pointtype 5 lc rgb 'black'
+set arrow from 49.8418,22.2173 to 49.2326,22.3509 as 2
+set label 37 "" at 50.4152,28.2378 point pointtype 5 lc rgb 'black'
+set label 45 "" at 54.4187,15.6063 point pointtype 5 lc rgb 'black'
+set arrow from 52.8611,22.0628 to 52.8042,22.0448 as 2
+set label 37 "" at 50.4152,28.2378 point pointtype 5 lc rgb 'black'
+set label 85 "" at 49.7124,16.171 point pointtype 5 lc rgb 'black'
+set arrow from 52.8042,22.0448 to 49.8418,22.2173 as 2
+set label 37 "" at 50.4152,28.2378 point pointtype 5 lc rgb 'black'
+set label 83 "" at 59.0599,19.6779 point pointtype 5 lc rgb 'black'
+set arrow from 58.3261,27.5819 to 52.8611,22.0628 as 2
+set label 37 "" at 50.4152,28.2378 point pointtype 5 lc rgb 'black'
+set label 87 "" at 44.9471,26.5567 point pointtype 5 lc rgb 'black'
+set arrow from 49.2326,22.3509 to 44.9057,36.4249 as 2
+set label 99 "" at 44.5111,98.8305 point pointtype 5 lc rgb 'black'
+set label 101 "" at 42.7262,99.5698 point pointtype 5 lc rgb 'black'
+set arrow from 42.8446,97.3314 to 68.4392,159.125 as 2
+set label 10 "" at 31.9096,5.21945 point pointtype 5 lc rgb 'black'
+set label 26 "" at 34.6887,12.4715 point pointtype 5 lc rgb 'black'
+set arrow from 27.4841,11.0739 to 34.7236,8.29961 as 2
+set label 10 "" at 31.9096,5.21945 point pointtype 5 lc rgb 'black'
+set label 61 "" at 38.3477,10.3664 point pointtype 5 lc rgb 'black'
+set arrow from 34.7236,8.29961 to 39.9735,1.73267 as 2
+set label 10 "" at 31.9096,5.21945 point pointtype 5 lc rgb 'black'
+set label 82 "" at 20.147,10.9097 point pointtype 5 lc rgb 'black'
+set arrow from 20.9428,-2.44787 to 27.4841,11.0739 as 2
+set label 10 "" at 31.9096,5.21945 point pointtype 5 lc rgb 'black'
+set label 16 "" at 48.4087,4.18878 point pointtype 5 lc rgb 'black'
+set arrow from 39.9735,1.73267 to 33.3753,-103.892 as 2
+set label 10 "" at 31.9096,5.21945 point pointtype 5 lc rgb 'black'
+set label 71 "" at 11.6979,7.22629 point pointtype 5 lc rgb 'black'
+set arrow from 19.3712,-18.2766 to 20.9428,-2.44787 as 2
+set label 16 "" at 48.4087,4.18878 point pointtype 5 lc rgb 'black'
+set label 90 "" at 65.051,12.0974 point pointtype 5 lc rgb 'black'
+set arrow from 57.3914,6.75097 to 58.3296,4.7766 as 2
+set label 16 "" at 48.4087,4.18878 point pointtype 5 lc rgb 'black'
+set label 47 "" at 47.8441,16.5091 point pointtype 5 lc rgb 'black'
+set arrow from 45.1812,10.214 to 47.6904,10.329 as 2
+set label 16 "" at 48.4087,4.18878 point pointtype 5 lc rgb 'black'
+set label 85 "" at 49.7124,16.171 point pointtype 5 lc rgb 'black'
+set arrow from 47.6904,10.329 to 51.3507,9.93072 as 2
+set label 16 "" at 48.4087,4.18878 point pointtype 5 lc rgb 'black'
+set label 45 "" at 54.4187,15.6063 point pointtype 5 lc rgb 'black'
+set arrow from 51.3507,9.93072 to 57.3914,6.75097 as 2
+set label 16 "" at 48.4087,4.18878 point pointtype 5 lc rgb 'black'
+set label 61 "" at 38.3477,10.3664 point pointtype 5 lc rgb 'black'
+set arrow from 39.9735,1.73267 to 45.1812,10.214 as 2
+set label 16 "" at 48.4087,4.18878 point pointtype 5 lc rgb 'black'
+set label 48 "" at 68.0197,6.98423 point pointtype 5 lc rgb 'black'
+set arrow from 58.3296,4.7766 to 68.5823,-67.1494 as 2
+set label 13 "" at 14.8008,57.816 point pointtype 5 lc rgb 'black'
+set label 96 "" at 12.9444,56.3076 point pointtype 5 lc rgb 'black'
+set arrow from 17.7579,52.2801 to 12.2236,59.0912 as 2
+set label 13 "" at 14.8008,57.816 point pointtype 5 lc rgb 'black'
+set label 40 "" at 18.6925,64.0745 point pointtype 5 lc rgb 'black'
+set arrow from 16.9157,60.8401 to 20.0265,58.9058 as 2
+set label 13 "" at 14.8008,57.816 point pointtype 5 lc rgb 'black'
+set label 80 "" at 23.4875,54.8417 point pointtype 5 lc rgb 'black'
+set arrow from 20.0265,58.9058 to 17.7579,52.2801 as 2
+set label 50 "" at 72.6988,48.0917 point pointtype 5 lc rgb 'black'
+set label 60 "" at 76.4766,42.7345 point pointtype 5 lc rgb 'black'
+set arrow from 74.3094,45.2168 to 68.606,41.1949 as 2
+set label 50 "" at 72.6988,48.0917 point pointtype 5 lc rgb 'black'
+set label 102 "" at 69.1533,58.9247 point pointtype 5 lc rgb 'black'
+set arrow from 67.7908,52.4821 to 70.5769,53.3939 as 2
+set label 50 "" at 72.6988,48.0917 point pointtype 5 lc rgb 'black'
+set label 97 "" at 61.668,54.906 point pointtype 5 lc rgb 'black'
+set arrow from 64.3001,46.8314 to 67.7908,52.4821 as 2
+set label 50 "" at 72.6988,48.0917 point pointtype 5 lc rgb 'black'
+set label 65 "" at 73.1926,48.3171 point pointtype 5 lc rgb 'black'
+set arrow from 70.5769,53.3939 to 74.3094,45.2168 as 2
+set label 92 "" at 1.18672,45.2125 point pointtype 5 lc rgb 'black'
+set label 98 "" at 5.80942,38.8496 point pointtype 5 lc rgb 'black'
+set arrow from 7.46342,44.9119 to -3.91877,36.6427 as 2
+set label 49 "" at 83.9707,96.1428 point pointtype 5 lc rgb 'black'
+set label 99 "" at 44.5111,98.8305 point pointtype 5 lc rgb 'black'
+set arrow from 66.2405,126.843 to 68.4392,159.125 as 2
+set label 49 "" at 83.9707,96.1428 point pointtype 5 lc rgb 'black'
+set label 86 "" at 85.7962,76.8933 point pointtype 5 lc rgb 'black'
+set arrow from 80.5489,86.107 to 79.5105,86.0085 as 2
+set label 49 "" at 83.9707,96.1428 point pointtype 5 lc rgb 'black'
+set label 94 "" at 91.152,92.1571 point pointtype 5 lc rgb 'black'
+set arrow from 87.792,94.5655 to 84.7986,89.1721 as 2
+set label 49 "" at 83.9707,96.1428 point pointtype 5 lc rgb 'black'
+set label 63 "" at 64.1154,86.8514 point pointtype 5 lc rgb 'black'
+set arrow from 75.4171,88.5609 to 71.4871,96.9591 as 2
+set label 49 "" at 83.9707,96.1428 point pointtype 5 lc rgb 'black'
+set label 101 "" at 42.7262,99.5698 point pointtype 5 lc rgb 'black'
+set arrow from 68.4392,159.125 to 70.7119,186.477 as 2
+set label 49 "" at 83.9707,96.1428 point pointtype 5 lc rgb 'black'
+set label 76 "" at 60.0281,91.9393 point pointtype 5 lc rgb 'black'
+set arrow from 71.4871,96.9591 to 66.2405,126.843 as 2
+set label 66 "" at 66.1468,28.9412 point pointtype 5 lc rgb 'black'
+set label 83 "" at 59.0599,19.6779 point pointtype 5 lc rgb 'black'
+set arrow from 61.221,25.3671 to 58.3261,27.5819 as 2
+set label 48 "" at 68.0197,6.98423 point pointtype 5 lc rgb 'black'
+set label 104 "" at 80.6636,12.2861 point pointtype 5 lc rgb 'black'
+set arrow from 74.2549,9.84206 to 76.966,3.37651 as 2
+set label 48 "" at 68.0197,6.98423 point pointtype 5 lc rgb 'black'
+set label 90 "" at 65.051,12.0974 point pointtype 5 lc rgb 'black'
+set arrow from 58.3296,4.7766 to 67.912,10.3401 as 2
+set label 48 "" at 68.0197,6.98423 point pointtype 5 lc rgb 'black'
+set label 93 "" at 86.1847,6.21712 point pointtype 5 lc rgb 'black'
+set arrow from 76.966,3.37651 to 75.2835,-36.4651 as 2
+set label 7 "" at 99.7089,6.70428 point pointtype 5 lc rgb 'black'
+set label 29 "" at 99.9169,3.62154 point pointtype 5 lc rgb 'black'
+set arrow from 493.415,31.7202 to 93.0101,4.70391 as 2
+set label 7 "" at 99.7089,6.70428 point pointtype 5 lc rgb 'black'
+set label 93 "" at 86.1847,6.21712 point pointtype 5 lc rgb 'black'
+set arrow from 93.0101,4.70391 to 92.9025,7.69117 as 2
+set label 7 "" at 99.7089,6.70428 point pointtype 5 lc rgb 'black'
+set label 18 "" at 92.1827,14.531 point pointtype 5 lc rgb 'black'
+set arrow from 92.9025,7.69117 to 118.143,31.963 as 2
+set label 7 "" at 99.7089,6.70428 point pointtype 5 lc rgb 'black'
+set label 41 "" at 99.7416,57.2455 point pointtype 5 lc rgb 'black'
+set arrow from 118.143,31.963 to 493.415,31.7202 as 2
+set label 23 "" at 71.4712,16.1107 point pointtype 5 lc rgb 'black'
+set label 48 "" at 68.0197,6.98423 point pointtype 5 lc rgb 'black'
+set arrow from 74.2549,9.84206 to 72.3183,10.5744 as 2
+set label 23 "" at 71.4712,16.1107 point pointtype 5 lc rgb 'black'
+set label 24 "" at 71.912,24.7451 point pointtype 5 lc rgb 'black'
+set arrow from 69.2743,20.5513 to 70.5499,20.4862 as 2
+set label 23 "" at 71.4712,16.1107 point pointtype 5 lc rgb 'black'
+set label 30 "" at 67.3008,25.0956 point pointtype 5 lc rgb 'black'
+set arrow from 66.7248,19.368 to 69.2743,20.5513 as 2
+set label 23 "" at 71.4712,16.1107 point pointtype 5 lc rgb 'black'
+set label 32 "" at 67.6631,13.6884 point pointtype 5 lc rgb 'black'
+set arrow from 72.3183,10.5744 to 66.7248,19.368 as 2
+set label 23 "" at 71.4712,16.1107 point pointtype 5 lc rgb 'black'
+set label 43 "" at 74.9223,19.5505 point pointtype 5 lc rgb 'black'
+set arrow from 70.5499,20.4862 to 76.2882,14.729 as 2
+set label 23 "" at 71.4712,16.1107 point pointtype 5 lc rgb 'black'
+set label 104 "" at 80.6636,12.2861 point pointtype 5 lc rgb 'black'
+set arrow from 76.2882,14.729 to 74.2549,9.84206 as 2
+set label 60 "" at 76.4766,42.7345 point pointtype 5 lc rgb 'black'
+set label 66 "" at 66.1468,28.9412 point pointtype 5 lc rgb 'black'
+set arrow from 73.4691,34.2222 to 69.5587,37.1507 as 2
+set label 60 "" at 76.4766,42.7345 point pointtype 5 lc rgb 'black'
+set label 65 "" at 73.1926,48.3171 point pointtype 5 lc rgb 'black'
+set arrow from 74.3094,45.2168 to 76.1685,46.3104 as 2
+set label 32 "" at 67.6631,13.6884 point pointtype 5 lc rgb 'black'
+set label 48 "" at 68.0197,6.98423 point pointtype 5 lc rgb 'black'
+set arrow from 72.3183,10.5744 to 67.912,10.3401 as 2
+set label 32 "" at 67.6631,13.6884 point pointtype 5 lc rgb 'black'
+set label 83 "" at 59.0599,19.6779 point pointtype 5 lc rgb 'black'
+set arrow from 63.7279,17.2094 to 65.1969,19.3194 as 2
+set label 32 "" at 67.6631,13.6884 point pointtype 5 lc rgb 'black'
+set label 90 "" at 65.051,12.0974 point pointtype 5 lc rgb 'black'
+set arrow from 67.912,10.3401 to 63.7279,17.2094 as 2
+set label 42 "" at 25.5817,51.7805 point pointtype 5 lc rgb 'black'
+set label 80 "" at 23.4875,54.8417 point pointtype 5 lc rgb 'black'
+set arrow from 17.5227,48.5142 to 27.1872,55.1258 as 2
+set label 42 "" at 25.5817,51.7805 point pointtype 5 lc rgb 'black'
+set label 68 "" at 30.6511,53.7952 point pointtype 5 lc rgb 'black'
+set arrow from 27.1872,55.1258 to 32.5845,41.5451 as 2
+set label 42 "" at 25.5817,51.7805 point pointtype 5 lc rgb 'black'
+set label 91 "" at 20.2499,40.2571 point pointtype 5 lc rgb 'black'
+set arrow from 32.5845,41.5451 to 17.5227,48.5142 as 2
+set label 21 "" at 4.75586,31.7173 point pointtype 5 lc rgb 'black'
+set label 92 "" at 1.18672,45.2125 point pointtype 5 lc rgb 'black'
+set arrow from -51.7925,23.9813 to -3.91877,36.6427 as 2
+set label 21 "" at 4.75586,31.7173 point pointtype 5 lc rgb 'black'
+set label 89 "" at 7.0644,31.4313 point pointtype 5 lc rgb 'black'
+set arrow from 6.35011,35.1258 to 5.69246,29.8173 as 2
+set label 21 "" at 4.75586,31.7173 point pointtype 5 lc rgb 'black'
+set label 98 "" at 5.80942,38.8496 point pointtype 5 lc rgb 'black'
+set arrow from -3.91877,36.6427 to 6.35011,35.1258 as 2
+set label 21 "" at 4.75586,31.7173 point pointtype 5 lc rgb 'black'
+set label 52 "" at 6.57007,23.0868 point pointtype 5 lc rgb 'black'
+set arrow from -3.30956,25.5159 to -27.756,20.3771 as 2
+set label 35 "" at 86.7205,12.2362 point pointtype 5 lc rgb 'black'
+set label 44 "" at 84.4964,30.5203 point pointtype 5 lc rgb 'black'
+set arrow from 85.7275,21.3927 to 86.0693,21.4343 as 2
+set label 35 "" at 86.7205,12.2362 point pointtype 5 lc rgb 'black'
+set label 43 "" at 74.9223,19.5505 point pointtype 5 lc rgb 'black'
+set arrow from 83.761,20.6351 to 83.8439,20.7687 as 2
+set label 35 "" at 86.7205,12.2362 point pointtype 5 lc rgb 'black'
+set label 93 "" at 86.1847,6.21712 point pointtype 5 lc rgb 'black'
+set arrow from 91.3824,8.78782 to 83.6691,9.47444 as 2
+set label 35 "" at 86.7205,12.2362 point pointtype 5 lc rgb 'black'
+set label 104 "" at 80.6636,12.2861 point pointtype 5 lc rgb 'black'
+set arrow from 83.6691,9.47444 to 83.761,20.6351 as 2
+set label 36 "" at 54.4113,91.1138 point pointtype 5 lc rgb 'black'
+set label 99 "" at 44.5111,98.8305 point pointtype 5 lc rgb 'black'
+set arrow from 49.7194,95.3034 to 55.5628,102.8 as 2
+set label 36 "" at 54.4113,91.1138 point pointtype 5 lc rgb 'black'
+set label 103 "" at 46.8604,82.1848 point pointtype 5 lc rgb 'black'
+set arrow from 56.1794,81.9614 to 51.9317,85.5535 as 2
+set label 36 "" at 54.4113,91.1138 point pointtype 5 lc rgb 'black'
+set label 63 "" at 64.1154,86.8514 point pointtype 5 lc rgb 'black'
+set arrow from 58.0122,86.1342 to 56.1794,81.9614 as 2
+set label 36 "" at 54.4113,91.1138 point pointtype 5 lc rgb 'black'
+set label 70 "" at 47.2951,89.4991 point pointtype 5 lc rgb 'black'
+set arrow from 51.9317,85.5535 to 49.7194,95.3034 as 2
+set label 36 "" at 54.4113,91.1138 point pointtype 5 lc rgb 'black'
+set label 76 "" at 60.0281,91.9393 point pointtype 5 lc rgb 'black'
+set arrow from 55.5628,102.8 to 58.0122,86.1342 as 2
+set label 33 "" at 60.8758,39.0596 point pointtype 5 lc rgb 'black'
+set label 37 "" at 50.4152,28.2378 point pointtype 5 lc rgb 'black'
+set arrow from 58.1636,31.2146 to 53.9269,35.31 as 2
+set label 33 "" at 60.8758,39.0596 point pointtype 5 lc rgb 'black'
+set label 50 "" at 72.6988,48.0917 point pointtype 5 lc rgb 'black'
+set arrow from 64.3001,46.8314 to 68.606,41.1949 as 2
+set label 33 "" at 60.8758,39.0596 point pointtype 5 lc rgb 'black'
+set label 66 "" at 66.1468,28.9412 point pointtype 5 lc rgb 'black'
+set arrow from 69.5587,37.1507 to 58.1636,31.2146 as 2
+set label 33 "" at 60.8758,39.0596 point pointtype 5 lc rgb 'black'
+set label 60 "" at 76.4766,42.7345 point pointtype 5 lc rgb 'black'
+set arrow from 68.606,41.1949 to 69.5587,37.1507 as 2
+set label 33 "" at 60.8758,39.0596 point pointtype 5 lc rgb 'black'
+set label 97 "" at 61.668,54.906 point pointtype 5 lc rgb 'black'
+set arrow from 59.3321,47.0798 to 64.3001,46.8314 as 2
+set label 33 "" at 60.8758,39.0596 point pointtype 5 lc rgb 'black'
+set label 72 "" at 52.2427,43.0243 point pointtype 5 lc rgb 'black'
+set arrow from 53.9269,35.31 to 59.3321,47.0798 as 2
+set label 84 "" at 26.7043,19.8161 point pointtype 5 lc rgb 'black'
+set label 87 "" at 44.9471,26.5567 point pointtype 5 lc rgb 'black'
+set arrow from 34.6973,26.2402 to 35.4257,24.2691 as 2
+set label 44 "" at 84.4964,30.5203 point pointtype 5 lc rgb 'black'
+set label 60 "" at 76.4766,42.7345 point pointtype 5 lc rgb 'black'
+set arrow from 80.4645,36.6129 to 88.1802,41.6791 as 2
+set label 75 "" at 50.7922,64.7504 point pointtype 5 lc rgb 'black'
+set label 103 "" at 46.8604,82.1848 point pointtype 5 lc rgb 'black'
+set arrow from 54.0684,74.6498 to 57.9218,75.5188 as 2
+set label 75 "" at 50.7922,64.7504 point pointtype 5 lc rgb 'black'
+set label 88 "" at 38.5472,61.9746 point pointtype 5 lc rgb 'black'
+set arrow from 44.8806,62.4321 to 44.2702,65.1247 as 2
+set label 75 "" at 50.7922,64.7504 point pointtype 5 lc rgb 'black'
+set label 102 "" at 69.1533,58.9247 point pointtype 5 lc rgb 'black'
+set arrow from 62.3942,69.4692 to 61.0111,65.1101 as 2
+set label 75 "" at 50.7922,64.7504 point pointtype 5 lc rgb 'black'
+set label 100 "" at 43.8075,72.7936 point pointtype 5 lc rgb 'black'
+set arrow from 46.9959,68.5081 to 54.0684,74.6498 as 2
+set label 75 "" at 50.7922,64.7504 point pointtype 5 lc rgb 'black'
+set label 97 "" at 61.668,54.906 point pointtype 5 lc rgb 'black'
+set arrow from 61.0111,65.1101 to 51.6235,54.739 as 2
+set label 18 "" at 92.1827,14.531 point pointtype 5 lc rgb 'black'
+set label 35 "" at 86.7205,12.2362 point pointtype 5 lc rgb 'black'
+set arrow from 91.3824,8.78782 to 86.0693,21.4343 as 2
+set label 18 "" at 92.1827,14.531 point pointtype 5 lc rgb 'black'
+set label 44 "" at 84.4964,30.5203 point pointtype 5 lc rgb 'black'
+set arrow from 86.0693,21.4343 to 110.708,33.2787 as 2
+set label 18 "" at 92.1827,14.531 point pointtype 5 lc rgb 'black'
+set label 93 "" at 86.1847,6.21712 point pointtype 5 lc rgb 'black'
+set arrow from 92.9025,7.69117 to 91.3824,8.78782 as 2
+set label 18 "" at 92.1827,14.531 point pointtype 5 lc rgb 'black'
+set label 41 "" at 99.7416,57.2455 point pointtype 5 lc rgb 'black'
+set arrow from 110.708,33.2787 to 118.143,31.963 as 2
+set label 73 "" at 8.8609,25.0677 point pointtype 5 lc rgb 'black'
+set label 81 "" at 24.5628,27.8051 point pointtype 5 lc rgb 'black'
+set arrow from 16.1824,29.4736 to 17.045,24.5254 as 2
+set label 17 "" at 0.836019,50.9664 point pointtype 5 lc rgb 'black'
+set label 92 "" at 1.18672,45.2125 point pointtype 5 lc rgb 'black'
+set arrow from 1.82503,48.139 to -291.361,30.2693 as 2
+set label 17 "" at 0.836019,50.9664 point pointtype 5 lc rgb 'black'
+set label 96 "" at 12.9444,56.3076 point pointtype 5 lc rgb 'black'
+set arrow from 4.22927,59.6693 to 4.52897,58.9899 as 2
+set label 17 "" at 0.836019,50.9664 point pointtype 5 lc rgb 'black'
+set label 56 "" at 4.02512,50.1717 point pointtype 5 lc rgb 'black'
+set arrow from 4.52897,58.9899 to 1.82503,48.139 as 2
+set label 14 "" at 13.6479,80.344 point pointtype 5 lc rgb 'black'
+set label 79 "" at 17.3074,85.8704 point pointtype 5 lc rgb 'black'
+set arrow from 12.2371,85.2531 to 20.9306,79.4964 as 2
+set label 14 "" at 13.6479,80.344 point pointtype 5 lc rgb 'black'
+set label 17 "" at 0.836019,50.9664 point pointtype 5 lc rgb 'black'
+set arrow from -5.8528,71.366 to -14.7025,75.2254 as 2
+set label 14 "" at 13.6479,80.344 point pointtype 5 lc rgb 'black'
+set label 39 "" at 28.0346,77.683 point pointtype 5 lc rgb 'black'
+set arrow from 20.9306,79.4964 to 20.8827,79.2376 as 2
+set label 14 "" at 13.6479,80.344 point pointtype 5 lc rgb 'black'
+set label 77 "" at 23.8396,72.5426 point pointtype 5 lc rgb 'black'
+set arrow from 20.8827,79.2376 to 18.3151,75.8833 as 2
+set label 14 "" at 13.6479,80.344 point pointtype 5 lc rgb 'black'
+set label 64 "" at 12.1253,90.3596 point pointtype 5 lc rgb 'black'
+set arrow from -3.76374,82.8206 to 12.2371,85.2531 as 2
+set label 14 "" at 13.6479,80.344 point pointtype 5 lc rgb 'black'
+set label 53 "" at 19.5317,69.5429 point pointtype 5 lc rgb 'black'
+set arrow from 18.3151,75.8833 to 9.55049,71.1089 as 2
+set label 70 "" at 47.2951,89.4991 point pointtype 5 lc rgb 'black'
+set label 99 "" at 44.5111,98.8305 point pointtype 5 lc rgb 'black'
+set arrow from 46.4775,94.3362 to 49.7194,95.3034 as 2
+set label 70 "" at 47.2951,89.4991 point pointtype 5 lc rgb 'black'
+set label 103 "" at 46.8604,82.1848 point pointtype 5 lc rgb 'black'
+set arrow from 51.9317,85.5535 to 42.0428,86.1412 as 2
+set label 51 "" at 77.9289,51.348 point pointtype 5 lc rgb 'black'
+set label 65 "" at 73.1926,48.3171 point pointtype 5 lc rgb 'black'
+set arrow from 75.9402,49.2396 to 72.7517,54.2221 as 2
+set label 51 "" at 77.9289,51.348 point pointtype 5 lc rgb 'black'
+set label 102 "" at 69.1533,58.9247 point pointtype 5 lc rgb 'black'
+set arrow from 72.7517,54.2221 to 77.5088,59.7319 as 2
+set label 51 "" at 77.9289,51.348 point pointtype 5 lc rgb 'black'
+set label 95 "" at 84.8672,63.7718 point pointtype 5 lc rgb 'black'
+set arrow from 77.5088,59.7319 to 88.6663,53.5008 as 2
+set label 100 "" at 43.8075,72.7936 point pointtype 5 lc rgb 'black'
+set label 103 "" at 46.8604,82.1848 point pointtype 5 lc rgb 'black'
+set arrow from 39.8908,79.2586 to 54.0684,74.6498 as 2
+set label 56 "" at 4.02512,50.1717 point pointtype 5 lc rgb 'black'
+set label 92 "" at 1.18672,45.2125 point pointtype 5 lc rgb 'black'
+set arrow from 7.46342,44.9119 to 1.82503,48.139 as 2
+set label 56 "" at 4.02512,50.1717 point pointtype 5 lc rgb 'black'
+set label 74 "" at 12.2116,39.7484 point pointtype 5 lc rgb 'black'
+set arrow from 12.0541,48.0512 to 8.20608,45.0289 as 2
+set label 56 "" at 4.02512,50.1717 point pointtype 5 lc rgb 'black'
+set label 96 "" at 12.9444,56.3076 point pointtype 5 lc rgb 'black'
+set arrow from 4.52897,58.9899 to 12.0541,48.0512 as 2
+set label 56 "" at 4.02512,50.1717 point pointtype 5 lc rgb 'black'
+set label 98 "" at 5.80942,38.8496 point pointtype 5 lc rgb 'black'
+set arrow from 8.20608,45.0289 to 7.46342,44.9119 as 2
+set label 58 "" at 34.65,63.2671 point pointtype 5 lc rgb 'black'
+set label 59 "" at 30.8483,66.6613 point pointtype 5 lc rgb 'black'
+set arrow from 28.5509,60.262 to 36.5899,69.2661 as 2
+set label 58 "" at 34.65,63.2671 point pointtype 5 lc rgb 'black'
+set label 88 "" at 38.5472,61.9746 point pointtype 5 lc rgb 'black'
+set arrow from 38.266,67.6484 to 34.9239,57.5714 as 2
+set label 58 "" at 34.65,63.2671 point pointtype 5 lc rgb 'black'
+set label 68 "" at 30.6511,53.7952 point pointtype 5 lc rgb 'black'
+set arrow from 34.9239,57.5714 to 28.5509,60.262 as 2
+set label 62 "" at 28.0584,76.8646 point pointtype 5 lc rgb 'black'
+set label 69 "" at 35.8295,85.6338 point pointtype 5 lc rgb 'black'
+set arrow from 36.1636,77.5099 to 36.4582,77.2488 as 2
+set label 62 "" at 28.0584,76.8646 point pointtype 5 lc rgb 'black'
+set label 77 "" at 23.8396,72.5426 point pointtype 5 lc rgb 'black'
+set arrow from 29.0692,71.6579 to 23.4528,77.1402 as 2
+set label 5 "" at 42.5163,71.4175 point pointtype 5 lc rgb 'black'
+set label 75 "" at 50.7922,64.7504 point pointtype 5 lc rgb 'black'
+set arrow from 46.9959,68.5081 to 44.2702,65.1247 as 2
+set label 5 "" at 42.5163,71.4175 point pointtype 5 lc rgb 'black'
+set label 100 "" at 43.8075,72.7936 point pointtype 5 lc rgb 'black'
+set arrow from 37.2724,77.6317 to 46.9959,68.5081 as 2
+set label 5 "" at 42.5163,71.4175 point pointtype 5 lc rgb 'black'
+set label 58 "" at 34.65,63.2671 point pointtype 5 lc rgb 'black'
+set arrow from 38.266,67.6484 to 36.5899,69.2661 as 2
+set label 5 "" at 42.5163,71.4175 point pointtype 5 lc rgb 'black'
+set label 62 "" at 28.0584,76.8646 point pointtype 5 lc rgb 'black'
+set arrow from 34.9585,73.2682 to 36.4582,77.2488 as 2
+set label 5 "" at 42.5163,71.4175 point pointtype 5 lc rgb 'black'
+set label 59 "" at 30.8483,66.6613 point pointtype 5 lc rgb 'black'
+set arrow from 36.5899,69.2661 to 34.9585,73.2682 as 2
+set label 5 "" at 42.5163,71.4175 point pointtype 5 lc rgb 'black'
+set label 69 "" at 35.8295,85.6338 point pointtype 5 lc rgb 'black'
+set arrow from 36.4582,77.2488 to 37.2724,77.6317 as 2
+set label 5 "" at 42.5163,71.4175 point pointtype 5 lc rgb 'black'
+set label 88 "" at 38.5472,61.9746 point pointtype 5 lc rgb 'black'
+set arrow from 44.2702,65.1247 to 38.266,67.6484 as 2
+set label 59 "" at 30.8483,66.6613 point pointtype 5 lc rgb 'black'
+set label 62 "" at 28.0584,76.8646 point pointtype 5 lc rgb 'black'
+set arrow from 29.0692,71.6579 to 34.9585,73.2682 as 2
+set label 59 "" at 30.8483,66.6613 point pointtype 5 lc rgb 'black'
+set label 80 "" at 23.4875,54.8417 point pointtype 5 lc rgb 'black'
+set arrow from 27.9389,60.2713 to 26.2516,61.3221 as 2
+set label 59 "" at 30.8483,66.6613 point pointtype 5 lc rgb 'black'
+set label 68 "" at 30.6511,53.7952 point pointtype 5 lc rgb 'black'
+set arrow from 28.5509,60.262 to 27.9389,60.2713 as 2
+set label 59 "" at 30.8483,66.6613 point pointtype 5 lc rgb 'black'
+set label 77 "" at 23.8396,72.5426 point pointtype 5 lc rgb 'black'
+set arrow from 26.8757,69.0439 to 29.0692,71.6579 as 2
+set label 6 "" at 13.3374,61.7421 point pointtype 5 lc rgb 'black'
+set label 28 "" at 17.7048,64.5683 point pointtype 5 lc rgb 'black'
+set arrow from 11.2448,69.7635 to 16.7027,61.3292 as 2
+set label 6 "" at 13.3374,61.7421 point pointtype 5 lc rgb 'black'
+set label 13 "" at 14.8008,57.816 point pointtype 5 lc rgb 'black'
+set arrow from 16.9157,60.8401 to 12.2236,59.0912 as 2
+set label 6 "" at 13.3374,61.7421 point pointtype 5 lc rgb 'black'
+set label 17 "" at 0.836019,50.9664 point pointtype 5 lc rgb 'black'
+set arrow from 4.22927,59.6693 to -5.8528,71.366 as 2
+set label 6 "" at 13.3374,61.7421 point pointtype 5 lc rgb 'black'
+set label 14 "" at 13.6479,80.344 point pointtype 5 lc rgb 'black'
+set arrow from -5.8528,71.366 to 9.55049,71.1089 as 2
+set label 6 "" at 13.3374,61.7421 point pointtype 5 lc rgb 'black'
+set label 40 "" at 18.6925,64.0745 point pointtype 5 lc rgb 'black'
+set arrow from 16.7027,61.3292 to 16.9157,60.8401 as 2
+set label 6 "" at 13.3374,61.7421 point pointtype 5 lc rgb 'black'
+set label 96 "" at 12.9444,56.3076 point pointtype 5 lc rgb 'black'
+set arrow from 12.2236,59.0912 to 4.22927,59.6693 as 2
+set label 6 "" at 13.3374,61.7421 point pointtype 5 lc rgb 'black'
+set label 53 "" at 19.5317,69.5429 point pointtype 5 lc rgb 'black'
+set arrow from 9.55049,71.1089 to 11.2448,69.7635 as 2
+set label 67 "" at 15.246,38.932 point pointtype 5 lc rgb 'black'
+set label 81 "" at 24.5628,27.8051 point pointtype 5 lc rgb 'black'
+set arrow from 19.4888,33.0206 to 16.4076,30.4406 as 2
+set label 67 "" at 15.246,38.932 point pointtype 5 lc rgb 'black'
+set label 74 "" at 12.2116,39.7484 point pointtype 5 lc rgb 'black'
+set arrow from 12.4177,34.4671 to 15.7883,46.9948 as 2
+set label 67 "" at 15.246,38.932 point pointtype 5 lc rgb 'black'
+set label 91 "" at 20.2499,40.2571 point pointtype 5 lc rgb 'black'
+set arrow from 15.7883,46.9948 to 19.4888,33.0206 as 2
+set label 55 "" at 41.8074,56.8754 point pointtype 5 lc rgb 'black'
+set label 75 "" at 50.7922,64.7504 point pointtype 5 lc rgb 'black'
+set arrow from 44.8806,62.4321 to 51.6235,54.739 as 2
+set label 55 "" at 41.8074,56.8754 point pointtype 5 lc rgb 'black'
+set label 97 "" at 61.668,54.906 point pointtype 5 lc rgb 'black'
+set arrow from 51.6235,54.739 to 51.4815,53.3073 as 2
+set label 55 "" at 41.8074,56.8754 point pointtype 5 lc rgb 'black'
+set label 88 "" at 38.5472,61.9746 point pointtype 5 lc rgb 'black'
+set arrow from 35.8619,56.6659 to 44.8806,62.4321 as 2
+set label 55 "" at 41.8074,56.8754 point pointtype 5 lc rgb 'black'
+set label 72 "" at 52.2427,43.0243 point pointtype 5 lc rgb 'black'
+set arrow from 51.4815,53.3073 to 39.3191,44.1442 as 2
+set label 55 "" at 41.8074,56.8754 point pointtype 5 lc rgb 'black'
+set label 68 "" at 30.6511,53.7952 point pointtype 5 lc rgb 'black'
+set arrow from 39.3191,44.1442 to 35.8619,56.6659 as 2
+set label 8 "" at 78.7975,48.7539 point pointtype 5 lc rgb 'black'
+set label 60 "" at 76.4766,42.7345 point pointtype 5 lc rgb 'black'
+set arrow from 88.1802,41.6791 to 76.1685,46.3104 as 2
+set label 8 "" at 78.7975,48.7539 point pointtype 5 lc rgb 'black'
+set label 44 "" at 84.4964,30.5203 point pointtype 5 lc rgb 'black'
+set arrow from 93.2207,43.2545 to 88.1802,41.6791 as 2
+set label 8 "" at 78.7975,48.7539 point pointtype 5 lc rgb 'black'
+set label 51 "" at 77.9289,51.348 point pointtype 5 lc rgb 'black'
+set arrow from 75.9402,49.2396 to 88.6663,53.5008 as 2
+set label 8 "" at 78.7975,48.7539 point pointtype 5 lc rgb 'black'
+set label 95 "" at 84.8672,63.7718 point pointtype 5 lc rgb 'black'
+set arrow from 88.6663,53.5008 to 89.1448,53.3074 as 2
+set label 8 "" at 78.7975,48.7539 point pointtype 5 lc rgb 'black'
+set label 41 "" at 99.7416,57.2455 point pointtype 5 lc rgb 'black'
+set arrow from 89.1448,53.3074 to 93.2207,43.2545 as 2
+set label 8 "" at 78.7975,48.7539 point pointtype 5 lc rgb 'black'
+set label 65 "" at 73.1926,48.3171 point pointtype 5 lc rgb 'black'
+set arrow from 76.1685,46.3104 to 75.9402,49.2396 as 2
+set label 52 "" at 6.57007,23.0868 point pointtype 5 lc rgb 'black'
+set label 73 "" at 8.8609,25.0677 point pointtype 5 lc rgb 'black'
+set arrow from 6.49291,25.4911 to 12.3295,18.7413 as 2
+set label 69 "" at 35.8295,85.6338 point pointtype 5 lc rgb 'black'
+set label 103 "" at 46.8604,82.1848 point pointtype 5 lc rgb 'black'
+set arrow from 42.0428,86.1412 to 39.8908,79.2586 as 2
+set label 69 "" at 35.8295,85.6338 point pointtype 5 lc rgb 'black'
+set label 70 "" at 47.2951,89.4991 point pointtype 5 lc rgb 'black'
+set arrow from 41.0235,89.1646 to 42.0428,86.1412 as 2
+set label 69 "" at 35.8295,85.6338 point pointtype 5 lc rgb 'black'
+set label 100 "" at 43.8075,72.7936 point pointtype 5 lc rgb 'black'
+set arrow from 39.8908,79.2586 to 37.2724,77.6317 as 2
+set label 69 "" at 35.8295,85.6338 point pointtype 5 lc rgb 'black'
+set label 78 "" at 24.1621,93.0813 point pointtype 5 lc rgb 'black'
+set arrow from 27.7183,85.7895 to 32.959,93.9998 as 2
+set label 12 "" at 84.7544,67.4371 point pointtype 5 lc rgb 'black'
+set label 86 "" at 85.7962,76.8933 point pointtype 5 lc rgb 'black'
+set arrow from 80.4769,72.6938 to 97.9769,70.7659 as 2
+set label 12 "" at 84.7544,67.4371 point pointtype 5 lc rgb 'black'
+set label 102 "" at 69.1533,58.9247 point pointtype 5 lc rgb 'black'
+set arrow from 75.7831,65.3266 to 75.7702,65.3502 as 2
+set label 12 "" at 84.7544,67.4371 point pointtype 5 lc rgb 'black'
+set label 41 "" at 99.7416,57.2455 point pointtype 5 lc rgb 'black'
+set arrow from 97.9769,70.7659 to 94.6734,65.908 as 2
+set label 12 "" at 84.7544,67.4371 point pointtype 5 lc rgb 'black'
+set label 34 "" at 73.9141,74.3849 point pointtype 5 lc rgb 'black'
+set arrow from 75.7702,65.3502 to 80.4769,72.6938 as 2
+set label 12 "" at 84.7544,67.4371 point pointtype 5 lc rgb 'black'
+set label 95 "" at 84.8672,63.7718 point pointtype 5 lc rgb 'black'
+set arrow from 94.6734,65.908 to 75.7831,65.3266 as 2
+set label 15 "" at 41.6907,95.4096 point pointtype 5 lc rgb 'black'
+set label 99 "" at 44.5111,98.8305 point pointtype 5 lc rgb 'black'
+set arrow from 42.8446,97.3314 to 46.4775,94.3362 as 2
+set label 15 "" at 41.6907,95.4096 point pointtype 5 lc rgb 'black'
+set label 70 "" at 47.2951,89.4991 point pointtype 5 lc rgb 'black'
+set arrow from 46.4775,94.3362 to 41.0235,89.1646 as 2
+set label 15 "" at 41.6907,95.4096 point pointtype 5 lc rgb 'black'
+set label 101 "" at 42.7262,99.5698 point pointtype 5 lc rgb 'black'
+set arrow from 32.1634,99.99 to 42.8446,97.3314 as 2
+set label 15 "" at 41.6907,95.4096 point pointtype 5 lc rgb 'black'
+set label 69 "" at 35.8295,85.6338 point pointtype 5 lc rgb 'black'
+set arrow from 41.0235,89.1646 to 32.959,93.9998 as 2
+set label 15 "" at 41.6907,95.4096 point pointtype 5 lc rgb 'black'
+set label 78 "" at 24.1621,93.0813 point pointtype 5 lc rgb 'black'
+set arrow from 32.959,93.9998 to 32.1634,99.99 as 2
+set label 47 "" at 47.8441,16.5091 point pointtype 5 lc rgb 'black'
+set label 61 "" at 38.3477,10.3664 point pointtype 5 lc rgb 'black'
+set arrow from 45.1812,10.214 to 41.477,15.9406 as 2
+set label 47 "" at 47.8441,16.5091 point pointtype 5 lc rgb 'black'
+set label 85 "" at 49.7124,16.171 point pointtype 5 lc rgb 'black'
+set arrow from 49.8418,22.2173 to 47.6904,10.329 as 2
+set label 47 "" at 47.8441,16.5091 point pointtype 5 lc rgb 'black'
+set label 57 "" at 35.254,14.4782 point pointtype 5 lc rgb 'black'
+set arrow from 41.477,15.9406 to 40.8336,19.9292 as 2
+set label 47 "" at 47.8441,16.5091 point pointtype 5 lc rgb 'black'
+set label 87 "" at 44.9471,26.5567 point pointtype 5 lc rgb 'black'
+set arrow from 40.8336,19.9292 to 49.2326,22.3509 as 2
+set label 46 "" at 95.7036,90.9768 point pointtype 5 lc rgb 'black'
+set label 94 "" at 91.152,92.1571 point pointtype 5 lc rgb 'black'
+set arrow from 92.8067,89.1717 to 93.7217,92.7005 as 2
+set label 45 "" at 54.4187,15.6063 point pointtype 5 lc rgb 'black'
+set label 90 "" at 65.051,12.0974 point pointtype 5 lc rgb 'black'
+set arrow from 59.8249,14.1248 to 57.3914,6.75097 as 2
+set label 45 "" at 54.4187,15.6063 point pointtype 5 lc rgb 'black'
+set label 83 "" at 59.0599,19.6779 point pointtype 5 lc rgb 'black'
+set arrow from 52.8611,22.0628 to 59.8249,14.1248 as 2
+set label 45 "" at 54.4187,15.6063 point pointtype 5 lc rgb 'black'
+set label 85 "" at 49.7124,16.171 point pointtype 5 lc rgb 'black'
+set arrow from 51.3507,9.93072 to 52.8042,22.0448 as 2
+set label 76 "" at 60.0281,91.9393 point pointtype 5 lc rgb 'black'
+set label 99 "" at 44.5111,98.8305 point pointtype 5 lc rgb 'black'
+set arrow from 55.5628,102.8 to 66.2405,126.843 as 2
+set label 43 "" at 74.9223,19.5505 point pointtype 5 lc rgb 'black'
+set label 104 "" at 80.6636,12.2861 point pointtype 5 lc rgb 'black'
+set arrow from 83.761,20.6351 to 76.2882,14.729 as 2
+set label 41 "" at 99.7416,57.2455 point pointtype 5 lc rgb 'black'
+set label 86 "" at 85.7962,76.8933 point pointtype 5 lc rgb 'black'
+set arrow from 97.9769,70.7659 to 102.096,73.6896 as 2
+set label 41 "" at 99.7416,57.2455 point pointtype 5 lc rgb 'black'
+set label 44 "" at 84.4964,30.5203 point pointtype 5 lc rgb 'black'
+set arrow from 110.708,33.2787 to 93.2207,43.2545 as 2
+set label 41 "" at 99.7416,57.2455 point pointtype 5 lc rgb 'black'
+set label 46 "" at 95.7036,90.9768 point pointtype 5 lc rgb 'black'
+set arrow from 107.433,75.2736 to 133.702,78.4183 as 2
+set label 41 "" at 99.7416,57.2455 point pointtype 5 lc rgb 'black'
+set label 95 "" at 84.8672,63.7718 point pointtype 5 lc rgb 'black'
+set arrow from 89.1448,53.3074 to 94.6734,65.908 as 2
+set label 40 "" at 18.6925,64.0745 point pointtype 5 lc rgb 'black'
+set label 80 "" at 23.4875,54.8417 point pointtype 5 lc rgb 'black'
+set arrow from 24.4208,61.1879 to 20.0265,58.9058 as 2
+set label 40 "" at 18.6925,64.0745 point pointtype 5 lc rgb 'black'
+set label 53 "" at 19.5317,69.5429 point pointtype 5 lc rgb 'black'
+set arrow from 19.4187,66.7617 to 19.7913,66.7045 as 2
+set label 39 "" at 28.0346,77.683 point pointtype 5 lc rgb 'black'
+set label 79 "" at 17.3074,85.8704 point pointtype 5 lc rgb 'black'
+set arrow from 20.9306,79.4964 to 25.2623,85.1719 as 2
+set label 39 "" at 28.0346,77.683 point pointtype 5 lc rgb 'black'
+set label 62 "" at 28.0584,76.8646 point pointtype 5 lc rgb 'black'
+set arrow from 36.1636,77.5099 to 23.4528,77.1402 as 2
+set label 39 "" at 28.0346,77.683 point pointtype 5 lc rgb 'black'
+set label 69 "" at 35.8295,85.6338 point pointtype 5 lc rgb 'black'
+set arrow from 27.7183,85.7895 to 36.1636,77.5099 as 2
+set label 39 "" at 28.0346,77.683 point pointtype 5 lc rgb 'black'
+set label 77 "" at 23.8396,72.5426 point pointtype 5 lc rgb 'black'
+set arrow from 23.4528,77.1402 to 20.8827,79.2376 as 2
+set label 39 "" at 28.0346,77.683 point pointtype 5 lc rgb 'black'
+set label 78 "" at 24.1621,93.0813 point pointtype 5 lc rgb 'black'
+set arrow from 25.2623,85.1719 to 27.7183,85.7895 as 2
+set label 38 "" at 91.9257,94.617 point pointtype 5 lc rgb 'black'
+set label 49 "" at 83.9707,96.1428 point pointtype 5 lc rgb 'black'
+set arrow from 87.792,94.5655 to 90.0261,106.213 as 2
+set label 38 "" at 91.9257,94.617 point pointtype 5 lc rgb 'black'
+set label 46 "" at 95.7036,90.9768 point pointtype 5 lc rgb 'black'
+set arrow from 96.8621,95.9596 to 93.7217,92.7005 as 2
+set label 38 "" at 91.9257,94.617 point pointtype 5 lc rgb 'black'
+set label 94 "" at 91.152,92.1571 point pointtype 5 lc rgb 'black'
+set arrow from 93.7217,92.7005 to 87.792,94.5655 as 2
+set label 78 "" at 24.1621,93.0813 point pointtype 5 lc rgb 'black'
+set label 79 "" at 17.3074,85.8704 point pointtype 5 lc rgb 'black'
+set arrow from 25.2623,85.1719 to 18.0808,91.9987 as 2
+set label 78 "" at 24.1621,93.0813 point pointtype 5 lc rgb 'black'
+set label 101 "" at 42.7262,99.5698 point pointtype 5 lc rgb 'black'
+set arrow from 21.6675,130.019 to 32.1634,99.99 as 2
+set label 80 "" at 23.4875,54.8417 point pointtype 5 lc rgb 'black'
+set label 96 "" at 12.9444,56.3076 point pointtype 5 lc rgb 'black'
+set arrow from 17.2429,48.5763 to 17.7579,52.2801 as 2
+set label 80 "" at 23.4875,54.8417 point pointtype 5 lc rgb 'black'
+set label 91 "" at 20.2499,40.2571 point pointtype 5 lc rgb 'black'
+set arrow from 17.5227,48.5142 to 17.2429,48.5763 as 2
+set label 81 "" at 24.5628,27.8051 point pointtype 5 lc rgb 'black'
+set label 84 "" at 26.7043,19.8161 point pointtype 5 lc rgb 'black'
+set arrow from 34.6973,26.2402 to 22.1746,22.8834 as 2
+set label 81 "" at 24.5628,27.8051 point pointtype 5 lc rgb 'black'
+set label 87 "" at 44.9471,26.5567 point pointtype 5 lc rgb 'black'
+set arrow from 35.4512,38.5493 to 34.6973,26.2402 as 2
+set label 81 "" at 24.5628,27.8051 point pointtype 5 lc rgb 'black'
+set label 91 "" at 20.2499,40.2571 point pointtype 5 lc rgb 'black'
+set arrow from 19.4888,33.0206 to 35.4512,38.5493 as 2
+set label 34 "" at 73.9141,74.3849 point pointtype 5 lc rgb 'black'
+set label 86 "" at 85.7962,76.8933 point pointtype 5 lc rgb 'black'
+set arrow from 79.1663,78.9021 to 80.4769,72.6938 as 2
+set label 34 "" at 73.9141,74.3849 point pointtype 5 lc rgb 'black'
+set label 75 "" at 50.7922,64.7504 point pointtype 5 lc rgb 'black'
+set arrow from 62.3942,69.4692 to 61.9609,70.5089 as 2
+set label 34 "" at 73.9141,74.3849 point pointtype 5 lc rgb 'black'
+set label 102 "" at 69.1533,58.9247 point pointtype 5 lc rgb 'black'
+set arrow from 75.7702,65.3502 to 62.3942,69.4692 as 2
+set label 83 "" at 59.0599,19.6779 point pointtype 5 lc rgb 'black'
+set label 90 "" at 65.051,12.0974 point pointtype 5 lc rgb 'black'
+set arrow from 63.7279,17.2094 to 59.8249,14.1248 as 2
+set label 31 "" at 81.0573,29.3311 point pointtype 5 lc rgb 'black'
+set label 66 "" at 66.1468,28.9412 point pointtype 5 lc rgb 'black'
+set arrow from 73.5013,32.9873 to 73.4691,34.2222 as 2
+set label 31 "" at 81.0573,29.3311 point pointtype 5 lc rgb 'black'
+set label 60 "" at 76.4766,42.7345 point pointtype 5 lc rgb 'black'
+set arrow from 73.4691,34.2222 to 80.4645,36.6129 as 2
+set label 31 "" at 81.0573,29.3311 point pointtype 5 lc rgb 'black'
+set label 35 "" at 86.7205,12.2362 point pointtype 5 lc rgb 'black'
+set arrow from 85.7275,21.3927 to 83.8439,20.7687 as 2
+set label 31 "" at 81.0573,29.3311 point pointtype 5 lc rgb 'black'
+set label 44 "" at 84.4964,30.5203 point pointtype 5 lc rgb 'black'
+set arrow from 80.4645,36.6129 to 85.7275,21.3927 as 2
+set label 31 "" at 81.0573,29.3311 point pointtype 5 lc rgb 'black'
+set label 43 "" at 74.9223,19.5505 point pointtype 5 lc rgb 'black'
+set arrow from 83.8439,20.7687 to 77.6941,24.6263 as 2
+set label 30 "" at 67.3008,25.0956 point pointtype 5 lc rgb 'black'
+set label 66 "" at 66.1468,28.9412 point pointtype 5 lc rgb 'black'
+set arrow from 61.221,25.3671 to 69.8369,27.9526 as 2
+set label 30 "" at 67.3008,25.0956 point pointtype 5 lc rgb 'black'
+set label 32 "" at 67.6631,13.6884 point pointtype 5 lc rgb 'black'
+set arrow from 66.7248,19.368 to 65.1969,19.3194 as 2
+set label 30 "" at 67.3008,25.0956 point pointtype 5 lc rgb 'black'
+set label 83 "" at 59.0599,19.6779 point pointtype 5 lc rgb 'black'
+set arrow from 65.1969,19.3194 to 61.221,25.3671 as 2
+set label 87 "" at 44.9471,26.5567 point pointtype 5 lc rgb 'black'
+set label 91 "" at 20.2499,40.2571 point pointtype 5 lc rgb 'black'
+set arrow from 35.4512,38.5493 to 35.7598,39.1056 as 2
+set label 27 "" at 8.75874,8.18217 point pointtype 5 lc rgb 'black'
+set label 52 "" at 6.57007,23.0868 point pointtype 5 lc rgb 'black'
+set arrow from -4.70705,13.8178 to 10.9913,16.123 as 2
+set label 27 "" at 8.75874,8.18217 point pointtype 5 lc rgb 'black'
+set label 71 "" at 11.6979,7.22629 point pointtype 5 lc rgb 'black'
+set arrow from 12.3985,14.3772 to 7.84628,0.379876 as 2
+set label 26 "" at 34.6887,12.4715 point pointtype 5 lc rgb 'black'
+set label 82 "" at 20.147,10.9097 point pointtype 5 lc rgb 'black'
+set arrow from 27.4841,11.0739 to 27.435,11.5311 as 2
+set label 26 "" at 34.6887,12.4715 point pointtype 5 lc rgb 'black'
+set label 84 "" at 26.7043,19.8161 point pointtype 5 lc rgb 'black'
+set arrow from 28.3357,13.5774 to 29.6265,14.9805 as 2
+set label 26 "" at 34.6887,12.4715 point pointtype 5 lc rgb 'black'
+set label 61 "" at 38.3477,10.3664 point pointtype 5 lc rgb 'black'
+set arrow from 37.3203,12.8131 to 34.7236,8.29961 as 2
+set label 26 "" at 34.6887,12.4715 point pointtype 5 lc rgb 'black'
+set label 57 "" at 35.254,14.4782 point pointtype 5 lc rgb 'black'
+set arrow from 29.6265,14.9805 to 37.3203,12.8131 as 2
+set label 25 "" at 91.1517,86.1864 point pointtype 5 lc rgb 'black'
+set label 49 "" at 83.9707,96.1428 point pointtype 5 lc rgb 'black'
+set arrow from 80.5489,86.107 to 84.7986,89.1721 as 2
+set label 25 "" at 91.1517,86.1864 point pointtype 5 lc rgb 'black'
+set label 86 "" at 85.7962,76.8933 point pointtype 5 lc rgb 'black'
+set arrow from 102.096,73.6896 to 80.5489,86.107 as 2
+set label 25 "" at 91.1517,86.1864 point pointtype 5 lc rgb 'black'
+set label 46 "" at 95.7036,90.9768 point pointtype 5 lc rgb 'black'
+set arrow from 92.8067,89.1717 to 107.433,75.2736 as 2
+set label 25 "" at 91.1517,86.1864 point pointtype 5 lc rgb 'black'
+set label 41 "" at 99.7416,57.2455 point pointtype 5 lc rgb 'black'
+set arrow from 107.433,75.2736 to 102.096,73.6896 as 2
+set label 25 "" at 91.1517,86.1864 point pointtype 5 lc rgb 'black'
+set label 94 "" at 91.152,92.1571 point pointtype 5 lc rgb 'black'
+set arrow from 84.7986,89.1721 to 92.8067,89.1717 as 2
+set label 24 "" at 71.912,24.7451 point pointtype 5 lc rgb 'black'
+set label 66 "" at 66.1468,28.9412 point pointtype 5 lc rgb 'black'
+set arrow from 69.8369,27.9526 to 73.5013,32.9873 as 2
+set label 24 "" at 71.912,24.7451 point pointtype 5 lc rgb 'black'
+set label 43 "" at 74.9223,19.5505 point pointtype 5 lc rgb 'black'
+set arrow from 77.6941,24.6263 to 70.5499,20.4862 as 2
+set label 24 "" at 71.912,24.7451 point pointtype 5 lc rgb 'black'
+set label 31 "" at 81.0573,29.3311 point pointtype 5 lc rgb 'black'
+set arrow from 73.5013,32.9873 to 77.6941,24.6263 as 2
+set label 24 "" at 71.912,24.7451 point pointtype 5 lc rgb 'black'
+set label 30 "" at 67.3008,25.0956 point pointtype 5 lc rgb 'black'
+set arrow from 69.2743,20.5513 to 69.8369,27.9526 as 2
+set label 89 "" at 7.0644,31.4313 point pointtype 5 lc rgb 'black'
+set label 98 "" at 5.80942,38.8496 point pointtype 5 lc rgb 'black'
+set arrow from 6.35011,35.1258 to 6.46199,35.1447 as 2
+set label 22 "" at 72.3733,77.5434 point pointtype 5 lc rgb 'black'
+set label 49 "" at 83.9707,96.1428 point pointtype 5 lc rgb 'black'
+set arrow from 75.4171,88.5609 to 79.5105,86.0085 as 2
+set label 22 "" at 72.3733,77.5434 point pointtype 5 lc rgb 'black'
+set label 86 "" at 85.7962,76.8933 point pointtype 5 lc rgb 'black'
+set arrow from 79.5105,86.0085 to 79.1663,78.9021 as 2
+set label 22 "" at 72.3733,77.5434 point pointtype 5 lc rgb 'black'
+set label 75 "" at 50.7922,64.7504 point pointtype 5 lc rgb 'black'
+set arrow from 61.9609,70.5089 to 59.5858,74.5157 as 2
+set label 22 "" at 72.3733,77.5434 point pointtype 5 lc rgb 'black'
+set label 34 "" at 73.9141,74.3849 point pointtype 5 lc rgb 'black'
+set arrow from 79.1663,78.9021 to 61.9609,70.5089 as 2
+set label 22 "" at 72.3733,77.5434 point pointtype 5 lc rgb 'black'
+set label 63 "" at 64.1154,86.8514 point pointtype 5 lc rgb 'black'
+set arrow from 59.5858,74.5157 to 75.4171,88.5609 as 2
+set label 20 "" at 19.2251,16.6184 point pointtype 5 lc rgb 'black'
+set label 82 "" at 20.147,10.9097 point pointtype 5 lc rgb 'black'
+set arrow from 21.8877,14.1196 to 14.2574,12.8874 as 2
+set label 20 "" at 19.2251,16.6184 point pointtype 5 lc rgb 'black'
+set label 73 "" at 8.8609,25.0677 point pointtype 5 lc rgb 'black'
+set arrow from 12.3295,18.7413 to 17.045,24.5254 as 2
+set label 20 "" at 19.2251,16.6184 point pointtype 5 lc rgb 'black'
+set label 52 "" at 6.57007,23.0868 point pointtype 5 lc rgb 'black'
+set arrow from 10.9913,16.123 to 12.3295,18.7413 as 2
+set label 20 "" at 19.2251,16.6184 point pointtype 5 lc rgb 'black'
+set label 81 "" at 24.5628,27.8051 point pointtype 5 lc rgb 'black'
+set arrow from 17.045,24.5254 to 19.8568,23.1838 as 2
+set label 20 "" at 19.2251,16.6184 point pointtype 5 lc rgb 'black'
+set label 27 "" at 8.75874,8.18217 point pointtype 5 lc rgb 'black'
+set arrow from 12.3985,14.3772 to 10.9913,16.123 as 2
+set label 20 "" at 19.2251,16.6184 point pointtype 5 lc rgb 'black'
+set label 71 "" at 11.6979,7.22629 point pointtype 5 lc rgb 'black'
+set arrow from 14.2574,12.8874 to 12.3985,14.3772 as 2
+set label 91 "" at 20.2499,40.2571 point pointtype 5 lc rgb 'black'
+set label 96 "" at 12.9444,56.3076 point pointtype 5 lc rgb 'black'
+set arrow from 15.7317,47.8884 to 17.2429,48.5763 as 2
+set label 95 "" at 84.8672,63.7718 point pointtype 5 lc rgb 'black'
+set label 102 "" at 69.1533,58.9247 point pointtype 5 lc rgb 'black'
+set arrow from 77.5088,59.7319 to 75.7831,65.3266 as 2
+set label 19 "" at 22.572,67.3302 point pointtype 5 lc rgb 'black'
+set label 59 "" at 30.8483,66.6613 point pointtype 5 lc rgb 'black'
+set arrow from 26.8757,69.0439 to 26.2516,61.3221 as 2
+set label 19 "" at 22.572,67.3302 point pointtype 5 lc rgb 'black'
+set label 77 "" at 23.8396,72.5426 point pointtype 5 lc rgb 'black'
+set arrow from 22.3032,70.1559 to 26.8757,69.0439 as 2
+set label 19 "" at 22.572,67.3302 point pointtype 5 lc rgb 'black'
+set label 40 "" at 18.6925,64.0745 point pointtype 5 lc rgb 'black'
+set arrow from 24.4208,61.1879 to 19.7913,66.7045 as 2
+set label 19 "" at 22.572,67.3302 point pointtype 5 lc rgb 'black'
+set label 80 "" at 23.4875,54.8417 point pointtype 5 lc rgb 'black'
+set arrow from 26.2516,61.3221 to 24.4208,61.1879 as 2
+set label 19 "" at 22.572,67.3302 point pointtype 5 lc rgb 'black'
+set label 53 "" at 19.5317,69.5429 point pointtype 5 lc rgb 'black'
+set arrow from 19.7913,66.7045 to 22.3032,70.1559 as 2
+set label 93 "" at 86.1847,6.21712 point pointtype 5 lc rgb 'black'
+set label 104 "" at 80.6636,12.2861 point pointtype 5 lc rgb 'black'
+set arrow from 76.966,3.37651 to 83.6691,9.47444 as 2
+set label 63 "" at 64.1154,86.8514 point pointtype 5 lc rgb 'black'
+set label 103 "" at 46.8604,82.1848 point pointtype 5 lc rgb 'black'
+set arrow from 57.9218,75.5188 to 56.1794,81.9614 as 2
+set label 63 "" at 64.1154,86.8514 point pointtype 5 lc rgb 'black'
+set label 75 "" at 50.7922,64.7504 point pointtype 5 lc rgb 'black'
+set arrow from 59.5858,74.5157 to 57.9218,75.5188 as 2
+set label 63 "" at 64.1154,86.8514 point pointtype 5 lc rgb 'black'
+set label 76 "" at 60.0281,91.9393 point pointtype 5 lc rgb 'black'
+set arrow from 58.0122,86.1342 to 71.4871,96.9591 as 2
+set label 74 "" at 12.2116,39.7484 point pointtype 5 lc rgb 'black'
+set label 98 "" at 5.80942,38.8496 point pointtype 5 lc rgb 'black'
+set arrow from 9.46904,36.0329 to 8.20608,45.0289 as 2
+set label 74 "" at 12.2116,39.7484 point pointtype 5 lc rgb 'black'
+set label 96 "" at 12.9444,56.3076 point pointtype 5 lc rgb 'black'
+set arrow from 12.0541,48.0512 to 15.7317,47.8884 as 2
+set label 74 "" at 12.2116,39.7484 point pointtype 5 lc rgb 'black'
+set label 91 "" at 20.2499,40.2571 point pointtype 5 lc rgb 'black'
+set arrow from 15.7317,47.8884 to 15.7883,46.9948 as 2
+set label 72 "" at 52.2427,43.0243 point pointtype 5 lc rgb 'black'
+set label 87 "" at 44.9471,26.5567 point pointtype 5 lc rgb 'black'
+set arrow from 44.9057,36.4249 to 37.1765,39.8492 as 2
+set label 72 "" at 52.2427,43.0243 point pointtype 5 lc rgb 'black'
+set label 97 "" at 61.668,54.906 point pointtype 5 lc rgb 'black'
+set arrow from 51.4815,53.3073 to 59.3321,47.0798 as 2
+set label 97 "" at 61.668,54.906 point pointtype 5 lc rgb 'black'
+set label 102 "" at 69.1533,58.9247 point pointtype 5 lc rgb 'black'
+set arrow from 61.0111,65.1101 to 67.7908,52.4821 as 2
+set label 71 "" at 11.6979,7.22629 point pointtype 5 lc rgb 'black'
+set label 82 "" at 20.147,10.9097 point pointtype 5 lc rgb 'black'
+set arrow from 14.2574,12.8874 to 20.9428,-2.44787 as 2
+set label 11 "" at 23.2295,17.5156 point pointtype 5 lc rgb 'black'
+set label 82 "" at 20.147,10.9097 point pointtype 5 lc rgb 'black'
+set arrow from 27.435,11.5311 to 21.8877,14.1196 as 2
+set label 11 "" at 23.2295,17.5156 point pointtype 5 lc rgb 'black'
+set label 84 "" at 26.7043,19.8161 point pointtype 5 lc rgb 'black'
+set arrow from 22.1746,22.8834 to 28.3357,13.5774 as 2
+set label 11 "" at 23.2295,17.5156 point pointtype 5 lc rgb 'black'
+set label 81 "" at 24.5628,27.8051 point pointtype 5 lc rgb 'black'
+set arrow from 19.8568,23.1838 to 22.1746,22.8834 as 2
+set label 11 "" at 23.2295,17.5156 point pointtype 5 lc rgb 'black'
+set label 26 "" at 34.6887,12.4715 point pointtype 5 lc rgb 'black'
+set arrow from 28.3357,13.5774 to 27.435,11.5311 as 2
+set label 11 "" at 23.2295,17.5156 point pointtype 5 lc rgb 'black'
+set label 20 "" at 19.2251,16.6184 point pointtype 5 lc rgb 'black'
+set arrow from 21.8877,14.1196 to 19.8568,23.1838 as 2
+set label 53 "" at 19.5317,69.5429 point pointtype 5 lc rgb 'black'
+set label 77 "" at 23.8396,72.5426 point pointtype 5 lc rgb 'black'
+set arrow from 18.3151,75.8833 to 22.3032,70.1559 as 2
+set label 9 "" at 6.58225,27.895 point pointtype 5 lc rgb 'black'
+set label 54 "" at 7.92715,31.6798 point pointtype 5 lc rgb 'black'
+set arrow from 8.09062,29.4904 to 10.4256,28.6606 as 2
+set label 9 "" at 6.58225,27.895 point pointtype 5 lc rgb 'black'
+set label 21 "" at 4.75586,31.7173 point pointtype 5 lc rgb 'black'
+set arrow from -3.30956,25.5159 to 5.69246,29.8173 as 2
+set label 9 "" at 6.58225,27.895 point pointtype 5 lc rgb 'black'
+set label 73 "" at 8.8609,25.0677 point pointtype 5 lc rgb 'black'
+set arrow from 10.4256,28.6606 to 6.49291,25.4911 as 2
+set label 9 "" at 6.58225,27.895 point pointtype 5 lc rgb 'black'
+set label 52 "" at 6.57007,23.0868 point pointtype 5 lc rgb 'black'
+set arrow from 6.49291,25.4911 to -3.30956,25.5159 as 2
+set label 9 "" at 6.58225,27.895 point pointtype 5 lc rgb 'black'
+set label 89 "" at 7.0644,31.4313 point pointtype 5 lc rgb 'black'
+set arrow from 5.69246,29.8173 to 8.09062,29.4904 as 2
+set label 68 "" at 30.6511,53.7952 point pointtype 5 lc rgb 'black'
+set label 80 "" at 23.4875,54.8417 point pointtype 5 lc rgb 'black'
+set arrow from 27.1872,55.1258 to 27.9389,60.2713 as 2
+set label 68 "" at 30.6511,53.7952 point pointtype 5 lc rgb 'black'
+set label 87 "" at 44.9471,26.5567 point pointtype 5 lc rgb 'black'
+set arrow from 37.1765,39.8492 to 35.7598,39.1056 as 2
+set label 68 "" at 30.6511,53.7952 point pointtype 5 lc rgb 'black'
+set label 88 "" at 38.5472,61.9746 point pointtype 5 lc rgb 'black'
+set arrow from 34.9239,57.5714 to 35.8619,56.6659 as 2
+set label 68 "" at 30.6511,53.7952 point pointtype 5 lc rgb 'black'
+set label 91 "" at 20.2499,40.2571 point pointtype 5 lc rgb 'black'
+set arrow from 35.7598,39.1056 to 32.5845,41.5451 as 2
+set label 68 "" at 30.6511,53.7952 point pointtype 5 lc rgb 'black'
+set label 72 "" at 52.2427,43.0243 point pointtype 5 lc rgb 'black'
+set arrow from 39.3191,44.1442 to 37.1765,39.8492 as 2
+set label 57 "" at 35.254,14.4782 point pointtype 5 lc rgb 'black'
+set label 84 "" at 26.7043,19.8161 point pointtype 5 lc rgb 'black'
+set arrow from 29.6265,14.9805 to 35.4257,24.2691 as 2
+set label 57 "" at 35.254,14.4782 point pointtype 5 lc rgb 'black'
+set label 61 "" at 38.3477,10.3664 point pointtype 5 lc rgb 'black'
+set arrow from 41.477,15.9406 to 37.3203,12.8131 as 2
+set label 57 "" at 35.254,14.4782 point pointtype 5 lc rgb 'black'
+set label 87 "" at 44.9471,26.5567 point pointtype 5 lc rgb 'black'
+set arrow from 35.4257,24.2691 to 40.8336,19.9292 as 2
+set label 65 "" at 73.1926,48.3171 point pointtype 5 lc rgb 'black'
+set label 102 "" at 69.1533,58.9247 point pointtype 5 lc rgb 'black'
+set arrow from 70.5769,53.3939 to 72.7517,54.2221 as 2
+set label 64 "" at 12.1253,90.3596 point pointtype 5 lc rgb 'black'
+set label 79 "" at 17.3074,85.8704 point pointtype 5 lc rgb 'black'
+set arrow from 18.0808,91.9987 to 12.2371,85.2531 as 2
+set label 64 "" at 12.1253,90.3596 point pointtype 5 lc rgb 'black'
+set label 78 "" at 24.1621,93.0813 point pointtype 5 lc rgb 'black'
+set arrow from 14.8596,106.244 to 18.0808,91.9987 as 2
+set label 1 "" at 100,100 point pointtype 5 lc rgb 'black'
+set label 49 "" at 83.9707,96.1428 point pointtype 5 lc rgb 'black'
+set arrow from 90.0261,106.213 to 70.7119,186.477 as 2
+set label 1 "" at 100,100 point pointtype 5 lc rgb 'black'
+set label 101 "" at 42.7262,99.5698 point pointtype 5 lc rgb 'black'
+set arrow from 70.7119,186.477 to 50,2943.92 as 2
+set label 1 "" at 100,100 point pointtype 5 lc rgb 'black'
+set label 46 "" at 95.7036,90.9768 point pointtype 5 lc rgb 'black'
+set arrow from 133.702,78.4183 to 96.8621,95.9596 as 2
+set label 1 "" at 100,100 point pointtype 5 lc rgb 'black'
+set label 41 "" at 99.7416,57.2455 point pointtype 5 lc rgb 'black'
+set arrow from 4835.75,50 to 133.702,78.4183 as 2
+set label 1 "" at 100,100 point pointtype 5 lc rgb 'black'
+set label 38 "" at 91.9257,94.617 point pointtype 5 lc rgb 'black'
+set arrow from 96.8621,95.9596 to 90.0261,106.213 as 2
+set label 1 "" at 100,100 point pointtype 5 lc rgb 'black'
+set label 2 "" at 0,100 point pointtype 5 lc rgb 'black'
+set arrow from 50,2943.92 to 50,1100 as 2
+set label 2 "" at 0,100 point pointtype 5 lc rgb 'black'
+set label 17 "" at 0.836019,50.9664 point pointtype 5 lc rgb 'black'
+set arrow from -14.7025,75.2254 to -1494.2,50 as 2
+set label 2 "" at 0,100 point pointtype 5 lc rgb 'black'
+set label 14 "" at 13.6479,80.344 point pointtype 5 lc rgb 'black'
+set arrow from -3.76374,82.8206 to -14.7025,75.2254 as 2
+set label 2 "" at 0,100 point pointtype 5 lc rgb 'black'
+set label 101 "" at 42.7262,99.5698 point pointtype 5 lc rgb 'black'
+set arrow from 50,2943.92 to 21.6675,130.019 as 2
+set label 2 "" at 0,100 point pointtype 5 lc rgb 'black'
+set label 78 "" at 24.1621,93.0813 point pointtype 5 lc rgb 'black'
+set arrow from 21.6675,130.019 to 14.8596,106.244 as 2
+set label 2 "" at 0,100 point pointtype 5 lc rgb 'black'
+set label 64 "" at 12.1253,90.3596 point pointtype 5 lc rgb 'black'
+set arrow from 14.8596,106.244 to -3.76374,82.8206 as 2
+set label 2 "" at 0,100 point pointtype 5 lc rgb 'black'
+set label 4 "" at 0,0 point pointtype 5 lc rgb 'black'
+set arrow from -1494.2,50 to -1000,50 as 2
+set label 3 "" at 100,0 point pointtype 5 lc rgb 'black'
+set label 29 "" at 99.9169,3.62154 point pointtype 5 lc rgb 'black'
+set arrow from 92.4306,1.63804 to 1554.61,35.1893 as 2
+set label 3 "" at 100,0 point pointtype 5 lc rgb 'black'
+set label 16 "" at 48.4087,4.18878 point pointtype 5 lc rgb 'black'
+set arrow from 50,-296.02 to 68.5823,-67.1494 as 2
+set label 3 "" at 100,0 point pointtype 5 lc rgb 'black'
+set label 48 "" at 68.0197,6.98423 point pointtype 5 lc rgb 'black'
+set arrow from 68.5823,-67.1494 to 75.2835,-36.4651 as 2
+set label 3 "" at 100,0 point pointtype 5 lc rgb 'black'
+set label 41 "" at 99.7416,57.2455 point pointtype 5 lc rgb 'black'
+set arrow from 1554.61,35.1893 to 4835.75,50 as 2
+set label 3 "" at 100,0 point pointtype 5 lc rgb 'black'
+set label 93 "" at 86.1847,6.21712 point pointtype 5 lc rgb 'black'
+set arrow from 75.2835,-36.4651 to 92.4306,1.63804 as 2
+set label 3 "" at 100,0 point pointtype 5 lc rgb 'black'
+set label 1 "" at 100,100 point pointtype 5 lc rgb 'black'
+set arrow from 4835.75,50 to 1100,50 as 2
+set label 4 "" at 0,0 point pointtype 5 lc rgb 'black'
+set label 10 "" at 31.9096,5.21945 point pointtype 5 lc rgb 'black'
+set arrow from 19.3712,-18.2766 to 33.3753,-103.892 as 2
+set label 4 "" at 0,0 point pointtype 5 lc rgb 'black'
+set label 16 "" at 48.4087,4.18878 point pointtype 5 lc rgb 'black'
+set arrow from 33.3753,-103.892 to 50,-296.02 as 2
+set label 4 "" at 0,0 point pointtype 5 lc rgb 'black'
+set label 92 "" at 1.18672,45.2125 point pointtype 5 lc rgb 'black'
+set arrow from -291.361,30.2693 to -51.7925,23.9813 as 2
+set label 4 "" at 0,0 point pointtype 5 lc rgb 'black'
+set label 21 "" at 4.75586,31.7173 point pointtype 5 lc rgb 'black'
+set arrow from -51.7925,23.9813 to -27.756,20.3771 as 2
+set label 4 "" at 0,0 point pointtype 5 lc rgb 'black'
+set label 17 "" at 0.836019,50.9664 point pointtype 5 lc rgb 'black'
+set arrow from -1494.2,50 to -291.361,30.2693 as 2
+set label 4 "" at 0,0 point pointtype 5 lc rgb 'black'
+set label 52 "" at 6.57007,23.0868 point pointtype 5 lc rgb 'black'
+set arrow from -27.756,20.3771 to -4.70705,13.8178 as 2
+set label 4 "" at 0,0 point pointtype 5 lc rgb 'black'
+set label 27 "" at 8.75874,8.18217 point pointtype 5 lc rgb 'black'
+set arrow from -4.70705,13.8178 to 7.84628,0.379876 as 2
+set label 4 "" at 0,0 point pointtype 5 lc rgb 'black'
+set label 71 "" at 11.6979,7.22629 point pointtype 5 lc rgb 'black'
+set arrow from 7.84628,0.379876 to 19.3712,-18.2766 as 2
+set label 4 "" at 0,0 point pointtype 5 lc rgb 'black'
+set label 3 "" at 100,0 point pointtype 5 lc rgb 'black'
+set arrow from 50,-296.02 to 50,-1000 as 2
+plot NaN notitle
