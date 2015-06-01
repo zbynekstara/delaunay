@@ -7,9 +7,9 @@ The program can be run through terminal:
 ```
 ./run <num <delaunay voronoi>>
 ```
-where the `num` argument determines the number of points added to the input file; the default value is `20`.
-The `delaunay` argument determines wheteher the delaunay triangulation should be shown; the default is `true`.
-The `voronoi` argument determines whether the voronoi diagram should be shown; the default is `true`.
+* The `num` argument determines the number of points added to the input file; the default value is `20`.
+* The `delaunay` argument determines wheteher the delaunay triangulation should be shown; the default is `true`.
+* The `voronoi` argument determines whether the voronoi diagram should be shown; the default is `true`.
 
 This produces an image file named `output.png` with the resulting diagram.
 
@@ -25,17 +25,17 @@ To produce a specific number of random points in the accepted format:
 g++ randinput.cpp -o randinput
 ./randinput <num>
 ```
-where the `num` argument determines the number of points produced; the default value is `20`.
+* The `num` argument determines the number of points produced; the default value is `20`.
 
 To produce the delaunay triangulation and/or voronoi diagram based on a list of points:
 ```
 g++ delaunay.cpp -o delaunay
 ./delaunay <input output <delaunay voronoi>>
 ```
-where the `input` argument determines the address of the input file; the default is `input.txt`.
-The `output` argument determines the address of the output file; the default is `output.txt`.
-The `delaunay` argument determines wheteher the delaunay triangulation should be shown; the default is `true`.
-The `voronoi` argument determines whether the voronoi diagram should be shown; the default is `true`.
+* The `input` argument determines the address of the input file; the default is `input.txt`.
+* The `output` argument determines the address of the output file; the default is `output.txt`.
+* The `delaunay` argument determines wheteher the delaunay triangulation should be shown; the default is `true`.
+* The `voronoi` argument determines whether the voronoi diagram should be shown; the default is `true`.
 
 This produces an `output.txt` file with instructions for `gnuplot` program to draw the diagram.
 
@@ -44,7 +44,7 @@ If one does not wish to use the provided `randinput` executable to produce input
 ```
 x	y
 ```
-The `x` and `y` values are separated by `\t` (tab).
+* The `x` and `y` values are separated by `\t` (tab).
 
 
 ### Output data formatting:
@@ -52,9 +52,12 @@ The output file contains information for the `gnuplot` program (`/usr/local/bin/
 
 The first line of the output file has to be:
 ```
-#!/usr/local/bin/gnuplot```
+#!/usr/local/bin/gnuplot
+```
 to ensure that the diagram will be drawn through gnuplot.
 
 Additionally, for the file to be drawn, it must be made executable. If the `gnuplot` program does not open, use:
-`chmod +x output.txt`
+```
+chmod +x output.txt
+```
 to ensure correct permissions.
