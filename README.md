@@ -8,7 +8,7 @@ The program can be run through terminal:
 ./run <num <delaunay voronoi>>
 ```
 * The `num` argument determines the number of points added to the input file; the default value is `20`.
-* The `delaunay` argument determines wheteher the Delaunay triangulation should be shown; the default is `true`.
+* The `delaunay` argument determines whether the Delaunay triangulation should be shown; the default is `true`.
 * The `voronoi` argument determines whether the Voronoi diagram should be shown; the default is `true`.
 
 This produces an image file named `output.png` with the resulting diagram.
